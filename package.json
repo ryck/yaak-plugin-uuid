@@ -4,12 +4,9 @@
   "description": "A Yaak plugin for generating UUIDs (v1, v4, v6, v7)",
   "keywords": [
     "yaak",
+    "yaak-plugin",
     "plugin",
-    "uuid",
-    "v1",
-    "v4",
-    "v6",
-    "v7"
+    "uuid"
   ],
   "private": false,
   "license": "MIT",
