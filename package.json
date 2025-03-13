@@ -1,0 +1,41 @@
+{
+  "name": "yaak-plugin-uuid",
+  "version": "0.0.1",
+  "description": "A Yaak plugin for generating UUIDs (v1, v4, v6, v7)",
+  "keywords": [
+    "yaak",
+    "plugin",
+    "uuid",
+    "v1",
+    "v4",
+    "v6",
+    "v7"
+  ],
+  "private": false,
+  "license": "MIT",
+  "author": "Ricardo Gonzalez <rickgc@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryck/yaak-plugin-uuid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryck/yaak-plugin-uuid/issues"
+  },
+  "homepage": "https://github.com/ryck/yaak-plugin-uuid#readme",
+  "scripts": {
+    "build": "yaakcli build",
+    "dev": "yaakcli dev",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@yaakapp/cli": "^0.1.2",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8",
+    "@vitest/coverage-v8": "^1.3.0"
+  },
+  "dependencies": {
+    "@yaakapp/api": "^0.5.0",
+    "uuid": "^11.1.0"
+  }
+}
