@@ -1,7 +1,7 @@
 # Yaak UUID Plugin
 
-This is a [Yaak](https://yaak.app) template tag plugin to generate fake data
-using [UUID](https://github.com/uuidjs/uuid).
+This is a [Yaak](https://yaak.app) template tag plugin to generate v1, v4, v6 and v7 UUIDs
+using the [UUID](https://github.com/uuidjs/uuid) package.
 
 ## Installation
 
@@ -12,4 +12,4 @@ using [UUID](https://github.com/uuidjs/uuid).
 - Access the `uuid.*` template functions using the autocomplete from any input that
   supports variables 
 
-![CleanShot 2024-09-19 at 13 56 33@2x](https://github.com/user-attachments/assets/2f935110-4af2-4236-a50d-18db5454176d)
+![Screenshot](https://github.com/user-attachments/assets/73955a18-4589-46b1-a768-c606a6103364)
