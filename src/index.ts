@@ -33,7 +33,6 @@ export const plugin: PluginDefinition = {
             ],
             async onRender(_ctx: Context, { values }: CallTemplateFunctionArgs): Promise<string | null> {
                 if (!values.name || !values.namespace) {
-                    console.error('Missing required arguments');
                     return null;
                 };
 
@@ -69,7 +68,6 @@ export const plugin: PluginDefinition = {
             ],
             async onRender(_ctx: Context, { values }: CallTemplateFunctionArgs): Promise<string | null> {
                 if (!values.name || !values.namespace) {
-                    console.error('Missing required arguments');
                     return null;
                 };
 
