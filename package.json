@@ -1,6 +1,6 @@
 {
   "name": "yaak-plugin-uuid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Yaak plugin for generating UUIDs (v1, v4, v6, v7)",
   "keywords": [
     "yaak",
